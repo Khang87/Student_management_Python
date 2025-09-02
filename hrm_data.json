@@ -1,0 +1,300 @@
+{
+  "employees": [
+    {
+      "id": "A0001",
+      "name": "Nguyễn Văn A",
+      "dob": "01/01/1990",
+      "gender": "Nam",
+      "position": "Nhân viên",
+      "dept": "Kế toán",
+      "branch": "Công ty A",
+      "team": "Phòng 1",
+      "city": "Hà Nội",
+      "salary_base": 400000
+    },
+    {
+      "id": "A0002",
+      "name": "Trần Thị B",
+      "dob": "15/05/1992",
+      "gender": "Nữ",
+      "position": "Kế toán trưởng",
+      "dept": "Kế toán",
+      "branch": "Công ty A",
+      "team": "Phòng 2",
+      "city": "Hải Phòng",
+      "salary_base": 600000
+    },
+    {
+      "id": "A0003",
+      "name": "Lê Văn C",
+      "dob": "20/09/1988",
+      "gender": "Nam",
+      "position": "Trưởng phòng",
+      "dept": "Nhân sự",
+      "branch": "Công ty B",
+      "team": "Phòng Nhân sự",
+      "city": "Đà Nẵng",
+      "salary_base": 700000
+    },
+    {
+      "id": "A0004",
+      "name": "Phạm Thị D",
+      "dob": "12/03/1995",
+      "gender": "Nữ",
+      "position": "Chuyên viên",
+      "dept": "Hành chính",
+      "branch": "Công ty B",
+      "team": "Phòng Hành chính",
+      "city": "Hồ Chí Minh",
+      "salary_base": 500000
+    },
+    {
+      "id": "A0005",
+      "name": "Vũ Minh E",
+      "dob": "29/11/1993",
+      "gender": "Nam",
+      "position": "Nhân viên",
+      "dept": "Kỹ thuật",
+      "branch": "Công ty A",
+      "team": "Phòng Kỹ thuật",
+      "city": "Nghệ An",
+      "salary_base": 450000
+    }
+  ],
+  "contracts": [
+    {
+      "employee_id": "A0001",
+      "contracts": [
+        {
+          "số": "001",
+          "loại": "Không xác định",
+          "trạng_thái": "Còn hạn",
+          "ký_ngày": "01/01/2024"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0002",
+      "contracts": [
+        {
+          "số": "002",
+          "loại": "Xác định 2 năm",
+          "trạng_thái": "Còn hạn",
+          "ký_ngày": "10/02/2024"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0003",
+      "contracts": [
+        {
+          "số": "003",
+          "loại": "Không xác định",
+          "trạng_thái": "Còn hạn",
+          "ký_ngày": "12/04/2023"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0004",
+      "contracts": [
+        {
+          "số": "004",
+          "loại": "Thời vụ 1 năm",
+          "trạng_thái": "Còn hạn",
+          "ký_ngày": "01/07/2024"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0005",
+      "contracts": [
+        {
+          "số": "005",
+          "loại": "Xác định 3 năm",
+          "trạng_thái": "Còn hạn",
+          "ký_ngày": "22/03/2024"
+        }
+      ]
+    }
+  ],
+  "degrees": [
+    {
+      "employee_id": "A0001",
+      "degrees": [
+        {
+          "Bằng cấp": "Đại học",
+          "Chuyên ngành": "Kế toán",
+          "Năm TN": "2012"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0002",
+      "degrees": [
+        {
+          "Bằng cấp": "Thạc sĩ",
+          "Chuyên ngành": "Kế toán doanh nghiệpp",
+          "Năm TN": "2015"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0003",
+      "degrees": [
+        {
+          "Bằng cấp": "Đại học",
+          "Chuyên ngành": "Quản trị nhân lực",
+          "Năm TN": "2010"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0004",
+      "degrees": [
+        {
+          "Bằng cấp": "Cao đẳng",
+          "Chuyên ngành": "Hành chính văn phòng",
+          "Năm TN": "2016"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0005",
+      "degrees": [
+        {
+          "Bằng cấp": "Đại học",
+          "Chuyên ngành": "Kỹ thuật phần mềm",
+          "Năm TN": "2017"
+        }
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "employee_id": "A0001",
+      "attendance": [
+        {
+          "ngay": "01/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "02/06/2025",
+          "trang_thai": "Vắng"
+        },
+        {
+          "ngay": "03/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "04/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "05/06/2025",
+          "trang_thai": "Có mặt"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0002",
+      "attendance": [
+        {
+          "ngay": "01/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "02/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "03/06/2025",
+          "trang_thai": "Xin nghỉ"
+        },
+        {
+          "ngay": "04/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "05/06/2025",
+          "trang_thai": "Có mặt"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0003",
+      "attendance": [
+        {
+          "ngay": "01/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "02/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "03/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "04/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "05/06/2025",
+          "trang_thai": "Vắng"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0004",
+      "attendance": [
+        {
+          "ngay": "01/06/2025",
+          "trang_thai": "Vắng"
+        },
+        {
+          "ngay": "02/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "03/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "04/06/2025",
+          "trang_thai": "Xin nghỉ"
+        },
+        {
+          "ngay": "05/06/2025",
+          "trang_thai": "Có mặt"
+        }
+      ]
+    },
+    {
+      "employee_id": "A0005",
+      "attendance": [
+        {
+          "ngay": "01/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "02/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "03/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "04/06/2025",
+          "trang_thai": "Có mặt"
+        },
+        {
+          "ngay": "05/06/2025",
+          "trang_thai": "Có mặt"
+        }
+      ]
+    }
+  ]
+}
