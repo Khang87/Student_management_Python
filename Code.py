@@ -4,7 +4,7 @@ import json
 import os
 
 DATA_FILE = 'hrm_data.json'
-
+dasdasd
 def load_json(path):
     if not os.path.exists(path):
         return {'employees': [], 'contracts': [], 'degrees': [], 'attendance': []}
